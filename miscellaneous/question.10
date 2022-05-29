@@ -1,1 +1,10 @@
+WRITE A PROGRAM TO CHECK WHETHER USER IS ABLE TO VOTE OR NOT.
 
+try:    
+    age = int(input("Enter the age:"))    
+    if(age<18):    
+        raise ValueError   
+    else:    
+        print("the age is valid")    
+except ValueError:    
+    print("The age is not valid") 

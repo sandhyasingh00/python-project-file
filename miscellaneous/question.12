@@ -1,1 +1,13 @@
 
+Write a code for open file if file is missing diplay an error.
+
+try:     
+    fileptr = open("file.txt","r")    
+except IOError:    
+    print("File not found")    
+else:    
+    print("The file opened successfully")    
+    fileptr.close()
+© 2022 GitHub, Inc.
+Terms
+Privacy

@@ -1,1 +1,6 @@
 
+Write the code to generate a number less than 10.
+
+import random
+a=random.randrange(10)
+print(a)

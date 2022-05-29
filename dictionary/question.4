@@ -1,1 +1,8 @@
+#Write a program in python to update dictionary with other dictionary
 
+dict1 = {'a' : 1, 'b' : 2, 'c' : 4, 'd' : 6}
+dict2 = {'c' : 3, 'd' : 5}
+for key in dict1:
+    if key in dict2:
+        dict1[key] = dict2[key]
+print("The updated dictionary is : " + str(dict1))
